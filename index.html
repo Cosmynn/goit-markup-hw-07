@@ -14,11 +14,53 @@
 </head>
 
 <body>
+  <div class="js-menu-container">
+    <button class="menu-toggle js-close-menu">
+      <svg class="close-menu-svg-mobile">
+        <use href="./images/icon.svg#burger-menu-close"></use>
+      </svg>
+    </button>
+
+    <ul class="nav-list-mobile">
+      <li>
+        <a class="mobile-menu-navbar" href="./index.html">Studio</a>
+      </li>
+      <li>
+        <a class="mobile-menu-navbar" href="./portfolio.html">Portfolio</a>
+      </li>
+      <li><a class="mobile-menu-navbar" href="#">Contacts</a></li>
+    </ul>
+
+    <ul class="contact-list-mobile">
+      <li class="phone-mobile-class">
+        <a class="mobile-contact-links" href="#">+1 212-772-4150</a>
+      </li>
+      <li class="email-mobile-class">
+        <a class="mobile-contact-links" href="#">info@devstudio.com</a>
+      </li>
+    </ul>
+
+    <ul class="mobile-menu-socials">
+      <li>
+        <a class="mobile-social-links" href="#">Instagram</a><span>|</span>
+      </li>
+      <li>
+        <a class="mobile-social-links" href="#">Twitter</a><span>|</span>
+      </li>
+      <li>
+        <a class="mobile-social-links" href="#">Facebook</a><span>|</span>
+      </li>
+      <li><a class="mobile-social-links" href="#">LinkedIn</a></li>
+    </ul>
+  </div>
   <header class="global-header">
     <div class="global-header-container">
       <a href="./index.html" class="logo-link">
         <p class="logo"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></p>
       </a>
+      <svg class="mobile-menu-icon js-open-menu">
+        <use href="./images/icon.svg#burger-menu"></use>
+      </svg>
       <nav class="main-nav">
         <ul class="main-nav-ul">
           <li><a href="./index.html" class="main-nav-studio"><span class="current">Studio</span></a></li>
@@ -58,60 +100,73 @@
 
     </section>
     <section>
-      <div>
+      <div class="main-advantages-container">
         <ul class="main-section-skil">
-          <li>
-            <div class="main-section-skil-icon">
-              <svg class="icon">
-                <use xlink:href="./images/icon.svg#icon-antenna-1-1" />
-              </svg>
-            </div>
-            <h3 class="main-skil">ATTENTION TO DETAILS</h3>
-            <p class="main-skil-details">
-              We go into all the details and processes of your business to
-              develop a customized solution.
-            </p>
-          </li>
-          <li>
-            <div class="main-section-skil-icon">
-              <svg class="icon">
-                <use xlink:href="./images/icon.svg#icon-clock-1" />
-              </svg>
-            </div>
-            <h3 class="main-skil">PUNCTUALITY</h3>
-            <p class="main-skil-details">
-              With us, you can feel safe and secure. An important principle of
-              the company: respect your time and deadlines.
-            </p>
-          </li>
-          <li>
-            <div class="main-section-skil-icon">
-              <svg class="icon">
-                <use xlink:href="./images/icon.svg#icon-diagrama" />
-              </svg>
-            </div>
-            <h3 class="main-skil">PLANNING</h3>
-            <p class="main-skil-details">
-              You will be able to observe and participate in every phase of
-              solution development and implementation.
-            </p>
-          </li>
-          <li>
-            <div class="main-section-skil-icon">
-              <svg class="icon">
-                <use xlink:href="./images/icon.svg#icon-astronaut-1" />
-              </svg>
-            </div>
-            <h3 class="main-skil">MODERN TECHNOLOGIES</h3>
-            <p class="main-skil-details">
-              We use innovative tools to solve assigned tasks. It's time to
-              simplify work processes.
-            </p>
-          </li>
+          <div class="our_advantages-container1">
+            <li>
+              <div class="main-our_advantages-list_element">
+                <div class="main-section-skil-icon">
+                  <svg class="icon">
+                    <use xlink:href="./images/icon.svg#icon-antenna-1-1" />
+                  </svg>
+                </div>
+                <h3 class="main-skil">ATTENTION TO DETAILS</h3>
+                <p class="main-skil-details">
+                  We go into all the details and processes of your business to
+                  develop a customized solution.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="main-our_advantages-list_element">
+                <div class="main-section-skil-icon">
+                  <svg class="icon">
+                    <use xlink:href="./images/icon.svg#icon-clock-1" />
+                  </svg>
+                </div>
+                <h3 class="main-skil">PUNCTUALITY</h3>
+                <p class="main-skil-details">
+                  With us, you can feel safe and secure. An important principle of
+                  the company: respect your time and deadlines.
+                </p>
+              </div>
+            </li>
+          </div>
+          <div class="our_advantages-container2">
+            <li>
+              <div class="main-our_advantages-list_element">
+                <div class="main-section-skil-icon">
+                  <svg class="icon">
+                    <use xlink:href="./images/icon.svg#icon-diagrama" />
+                  </svg>
+                </div>
+                <h3 class="main-skil">PLANNING</h3>
+                <p class="main-skil-details">
+                  You will be able to observe and participate in every phase of
+                  solution development and implementation.
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="main-our_advantages-list_element">
+                <div class="main-section-skil-icon">
+                  <svg class="icon">
+                    <use xlink:href="./images/icon.svg#icon-astronaut-1" />
+                  </svg>
+                </div>
+                <h3 class="main-skil">MODERN TECHNOLOGIES</h3>
+                <p class="main-skil-details">
+                  We use innovative tools to solve assigned tasks. It's time to
+                  simplify work processes.
+                </p>
+              </div>
+            </li>
+          </div>
         </ul>
       </div>
     </section>
     <section>
+      <div class="what-we-do-container"></div>
       <h2 class="main-what-we-do">What we do</h2>
       <ul class="main-what-we-do-images">
         <li>
@@ -420,6 +475,10 @@
     </div>
   </div>
   <script src="./js/modal.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="js/mobile-menu.js"></script>
 
 </body>
 
