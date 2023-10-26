@@ -1140,3 +1140,80 @@ body {
   color: rgba(33, 150, 243, 1);
   transition: color 250ms ease, cubic-bezier(0.4, 0, 0.2, 1) ease;
 }
+/* ----------------- ceva --------------------- */
+.main-title {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: 0.06em;
+}
+.main-container {
+  padding: 118px 0px;
+}
+.main-section-skil {
+  padding: 60px 0px 60px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.main-skil,
+.main-skil-details {
+  width: 450px;
+}
+.main-skil {
+  text-align: center;
+}
+.our_advantages-container1,
+.our_advantages-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 450px;
+}
+.main-section-skil-icon {
+  width: 450px;
+  display: flex;
+  justify-content: center;
+}
+.main-section-skil {
+  width: 450px;
+}
+.main-our-team-description {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  padding: 0px 15px 60px 15px;
+}
+.main-our-team {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.our_team-container1 li,
+.our_team-container2 li {
+  width: 450px;
+  height: 622px;
+  padding: 0px 0px;
+}
+.our_team-container1 li picture img,
+.our_team-container2 li picture img {
+  width: 450px;
+  height: 460px;
+}
+.regular-customers h2 {
+  padding: 60px 0px 30px 0px;
+}
+.regular-customers-list {
+  padding-bottom: 60px;
+}
+
+.regular-customers ul li svg {
+  width: 210px;
+  height: 92px;
+  padding: 0px;
+}
+
+.regular-customers_container1,
+.regular-customers_container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
