@@ -1612,3 +1612,252 @@ body {
     padding: 0px 15px;
   }
 }
+/* ----------------- desktop --------------------- */
+@media screen and (min-width: 1158px) {
+  .global-header,
+  .global-header-container,
+  .what-we-do-container,
+  .main-what-we-do-images,
+  .main-advantages-container,
+  .main-our-team,
+  .regular-customers,
+  .footer,
+  .main,
+  .body {
+    width: 1600px;
+    margin: 0 auto;
+  }
+  .what-we-do-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .global-header .logo-link {
+    padding: 24px 93px 25px 215px;
+  }
+  .global-header .main-nav ul {
+    padding: 0px 330px 0px 0px;
+  }
+  .global-header-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 32px 215px 32px 0px;
+  }
+  .main-container {
+    padding: 200px 0px;
+  }
+  .main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    padding: 30px;
+  }
+  .main-buton {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+  }
+  .main-section-skil {
+    gap: 30px;
+    padding: 94px 0px 94px 0px;
+  }
+  .main-section-skil {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .our_advantages-container1,
+  .our_advantages-container2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .our_advantages-container1,
+  .our_advantages-container2 {
+    width: 570px;
+  }
+
+  .our_advantages-container1 li,
+  .our_advantages-container2 li {
+    width: 270px;
+  }
+  .main-skil,
+  .main-skil-details {
+    width: 270px;
+  }
+  .main-section-skil-icon {
+    width: 270px;
+  }
+  .main-our-team {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
+  .main-our-team-description {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .our_team-container1,
+  .our_team-container2 {
+    display: flex;
+    flex-direction: row;
+  }
+  .main-our-team-description {
+    width: 1170px;
+    padding: 0px 0px 94px 0px;
+  }
+  .main-our-team {
+    font-size: 36px;
+  }
+  .regular-customers-list {
+    padding-bottom: 94px;
+  }
+
+  .regular-customers h2 {
+    padding: 94px 0px 50px 0px;
+  }
+
+  .regular-customers-list ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+  }
+
+  .newsletter-form {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .newsletter-form-label {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  .footer-newsletter-button {
+    padding: 36px 0px 0px 0px;
+  }
+
+  .newsletter-subscribe-icon {
+    position: absolute;
+    top: 47px;
+    left: 148px;
+  }
+
+  .global-footer-container ul {
+    padding: 0px 0px 60px 0px;
+  }
+  .mobile-menu-icon {
+    display: none;
+  }
+  .main-nav {
+    display: block;
+  }
+  .main-advantages-container {
+    width: 1170px;
+  }
+  .main-our-team-description {
+    width: 1170px;
+    padding: 0px 0px 94px 0px;
+  }
+  .main-our-team {
+    padding-top: 94px;
+    padding-bottom: 50px;
+  }
+  .main-our-team-description {
+    display: flex;
+    flex-direction: row;
+  }
+  .our_team-container1,
+  .our_team-container2 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 1170px;
+  }
+  .our_team-container1 li,
+  .our_team-container2 li {
+    width: 270px;
+    height: 428px;
+    padding: 0px 0px;
+  }
+  .our_team-container1 li picture img,
+  .our_team-container2 li picture img {
+    width: 270px;
+    height: 260px;
+  }
+
+  .regular-customers ul li svg {
+    width: 170px;
+    height: 92px;
+    padding: 0px;
+  }
+  .find-us {
+    width: 206px;
+    padding: 72px 0px 0px 70px;
+    align-items: flex-start;
+  }
+  .global-footer-container {
+    width: 232px;
+  }
+  .find-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .global-footer-contact {
+    text-align: left;
+  }
+
+  .newsletter-form {
+    width: 570px;
+    padding: 72px 0px 93px 93px;
+  }
+
+  .footer-container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+  }
+  .main-skil {
+    text-align: left;
+  }
+  .button-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 8px;
+    padding: 60px 0px 30px 0px;
+    letter-spacing: 0.03em;
+    width: 516px;
+  }
+  .main-button_list-container {
+    margin: 0 auto;
+    width: 1170px;
+  }
+  .images-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1180px;
+    gap: 30px;
+  }
+  .main-list-images-overlay-container picture img,
+  .main-list-images-overlay-container-text {
+    width: 370px;
+    height: 294px;
+  }
+  .main-list-images {
+    width: 370px;
+    height: 404px;
+    padding: 0px 15px;
+  }
+}
