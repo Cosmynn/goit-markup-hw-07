@@ -31,6 +31,7 @@ ul {
   font-weight: 700;
   line-height: 1.38;
   letter-spacing: 3%;
+  margin: 0px;
 }
 .logo-web {
   color: var(--web-color);
@@ -73,6 +74,16 @@ ul {
   letter-spacing: 2%;
   color: var(--inactive-link2);
 }
+.global-header-contact {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  margin: 0px;
+}
+.global-header-contact li {
+  padding: 32px 40px 0px 0px;
+}
 .global-header-contact a {
   text-decoration: none;
 }
@@ -100,6 +111,8 @@ ul {
   letter-spacing: 6%;
   text-align: center;
   color: var(--white);
+  margin: 0;
+  padding: 0px 0px 30px 0px;
 }
 .main-buton {
   width: 200px;
@@ -112,9 +125,26 @@ ul {
   background-color: var(--web-color);
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 .main-buton:hover {
   background-color: var(--color-buton-focus);
+}
+.main {
+  width: 1600 px;
+  height: 600 px;
+}
+
+.our_advantages-container1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.our_advantages-container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 .main-skil {
   font-size: 14px;
@@ -123,13 +153,16 @@ ul {
   letter-spacing: 3%;
   padding-top: 30px;
   color: var(--main-color);
+  margin: 0px;
 }
-.main-skil-details {
+.main-our_advantages-list_element {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 3%;
   color: var(--details-color);
+  margin: 0px;
+  padding-top: 10px;
 }
 .main-what-we-do {
   font-size: 36px;
@@ -157,14 +190,17 @@ ul {
   letter-spacing: 3%;
   text-align: center;
   color: var(--main-color);
+  margin: 0px;
+  padding: 30px 0px 10px 0px;
 }
 .main-our-team-name-job {
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.18;
+  line-height: 1.17;
   letter-spacing: 3%;
   text-align: center;
   color: var(--details-color);
+  margin: 0px;
 }
 /* ----------------------------------- Portfolio-main -----------------------------------*/
 .button-list button {
@@ -188,6 +224,7 @@ ul {
   line-height: 2;
   letter-spacing: 6%;
   color: var(--main-color);
+  padding: 0px 0px 4px 0px;
 }
 .main-title-images-description {
   font-size: 16px;
@@ -207,8 +244,11 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.19;
+  line-height: 1.17;
   letter-spacing: 3%;
+  font-style: bold;
+  margin: 0px;
+  padding: 60px 0px 28px 0px;
 }
 .logo-web-footer {
   color: var(--web-color);
@@ -247,6 +287,10 @@ ul {
 }
 .address a:visited {
   color: var(--inactive-link2);
+}
+.footer {
+  display: flex;
+  justify-content: center;
 }
 /* ---------------------- Tema 3 --------------------*/
 /* ---------------------- Header --------------------*/
@@ -318,6 +362,7 @@ body {
 /* ---------------------- skill --------------------*/
 .main-section-skil {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 30px;
   padding: 94px 0px 94px 0px;
@@ -328,10 +373,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.main-skil-details {
-  margin: 0px;
-  padding-top: 10px;
-}
+
 /* ---------------------- What we do --------------------*/
 .main-what-we-do {
   margin: 0;
@@ -351,6 +393,13 @@ body {
   padding-top: 94px;
   padding-bottom: 50px;
 }
+.main-what-we-do-images li img,
+.main-our-team-description li img,
+.images-list li img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .main-our-team-description {
   display: flex;
   justify-content: center;
@@ -364,17 +413,13 @@ body {
 }
 
 /* ---------------------- Footer --------------------*/
-.logo-footer {
-  padding: 60px 0px 28px 215px;
-  margin: 0 auto;
-}
 .global-footer-container ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 72px;
   margin: 0px;
-  padding: 0px 0px 60px 215px;
+  padding: 0px 0px 60px 0px;
   margin: 0 auto;
 }
 /* ---------------------- Portofolio --------------------*/
@@ -401,6 +446,9 @@ body {
 .images-list li {
   border: 1px solid #eeeeee;
   padding: 0px 0px 0px 0px;
+}
+.images-list li p {
+  margin: 0px;
 }
 .images-text {
   padding: 20px 24px;
@@ -441,7 +489,6 @@ body {
   justify-content: space-between;
   align-items: center;
   column-gap: 10px;
-  padding-right: 40px;
 }
 .global-header-contact-item svg {
   width: 16px;
@@ -452,16 +499,18 @@ body {
   fill: rgba(33, 150, 243, 1);
 }
 /* ---------------------- hero bakeground--------------------*/
-.main {
+.main-container {
   background: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url("../images/Img.png");
-  width: 1600px;
-  display: flexbox;
-  justify-content: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px 0px;
   margin: 0 auto;
 }
 /* ---------------------- social media--------------------*/
@@ -469,7 +518,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 16px 32px 30px 32px;
-  gap: 8px;
+  gap: 6px;
 }
 .main-our-team-media-social {
   display: inline-block;
@@ -1229,7 +1278,7 @@ body {
     flex-direction: column;
   }
   .main-skil,
-  .main-skil-details {
+  .main-our_advantages-list_element {
     width: 450px;
   }
   .main-skil {
@@ -1529,7 +1578,7 @@ body {
   }
   /* ----------------- trebuie sa ma uit --------------------- */
   .main-skil,
-  .main-skil-details {
+  .main-our_advantages-list_element {
     width: 354px;
   }
   .mobile-menu-icon {
@@ -1684,7 +1733,7 @@ body {
     width: 270px;
   }
   .main-skil,
-  .main-skil-details {
+  .main-our_advantages-list_element {
     width: 270px;
   }
   .main-section-skil-icon {
